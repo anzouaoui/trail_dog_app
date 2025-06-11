@@ -34,22 +34,22 @@ dependencies:
     sdk: flutter
 
   # Firebase
-  firebase_core: ^2.24.2
-  firebase_auth: ^4.15.3
-  cloud_firestore: ^4.13.6
-  firebase_storage: ^11.5.6
-  firebase_functions: ^4.4.0
+  firebase_core: ^2.21.0
+  firebase_auth: ^4.12.0
+  cloud_firestore: ^4.12.0
+  firebase_storage: ^11.4.0
+  cloud_functions: ^4.6.7
 
   # State Management
-  provider: ^6.1.1
+  provider: ^6.0.5
 
   # Localization
   intl: ^0.18.1
   flutter_localized_locales: ^2.0.5
 
   # UI Components
+  google_fonts: ^5.1.0
   cupertino_icons: ^1.0.2
-  google_fonts: ^6.1.0
   cached_network_image: ^3.3.0
 
   # Utils
@@ -82,6 +82,26 @@ flutter:
     - assets/images/
     - assets/icons/
     - assets/translations/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
 
   # To add assets to your application, add an assets section, like this:
   # assets:
